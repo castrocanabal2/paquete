@@ -6,7 +6,7 @@
 #'
 #' @param dem Un objeto `terra::SpatRaster` que representa un DEM.
 #' @param unit Unidad de la pendiente. Por defecto `"degrees"`.
-#'
+#' @importFrom terra terrain
 #' @return Un `terra::SpatRaster` con clases de pendiente.
 #' @export
 
